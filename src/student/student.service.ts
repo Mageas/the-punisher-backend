@@ -4,7 +4,7 @@ import { CreateStudentDto, SchoolYearIdDto, UpdateStudentDto } from './dto';
 import { StudentRO } from './types';
 import { Prisma } from '@prisma/client';
 
-const studentSelect = {
+export const studentSelect = {
   id: true,
   name: true,
   years: {
